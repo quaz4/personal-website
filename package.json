@@ -15,7 +15,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --incremental --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx eleventy && wrangler deploy",
+    "preview": "npx eleventy && wrangler dev"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
@@ -24,6 +27,7 @@
   "devDependencies": {
     "@types/react-dom": "^19.2.3",
     "react-dom": "^19.2.5",
-    "tsx": "^4.21.0"
+    "tsx": "^4.21.0",
+    "wrangler": "^4.87.0"
   }
 }
