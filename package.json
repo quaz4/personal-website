@@ -1,56 +1,29 @@
 {
   "name": "personal-website",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/quaz4/personal-website#readme",
+  "bugs": {
+    "url": "https://github.com/quaz4/personal-website/issues"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quaz4/personal-website.git"
+  },
+  "license": "ISC",
+  "author": "quaz4",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "@angular/animations": "~12.0.3",
-    "@angular/common": "~12.0.3",
-    "@angular/compiler": "~12.0.3",
-    "@angular/core": "~12.0.3",
-    "@angular/forms": "~12.0.3",
-    "@angular/platform-browser": "~12.0.3",
-    "@angular/platform-browser-dynamic": "~12.0.3",
-    "@angular/router": "~12.0.3",
-    "@angular/service-worker": "~12.0.3",
-    "humanize-duration": "^3.24.0",
-    "ngx-lightbox": "^2.3.0",
-    "rxjs": "~6.6.3",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-plugin-vite": "^7.1.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^12.0.3",
-    "@angular-eslint/builder": "12.1.0",
-    "@angular-eslint/eslint-plugin": "12.1.0",
-    "@angular-eslint/eslint-plugin-template": "12.1.0",
-    "@angular-eslint/schematics": "12.1.0",
-    "@angular-eslint/template-parser": "12.1.0",
-    "@angular/cli": "~12.0.3",
-    "@angular/compiler-cli": "~12.0.3",
-    "@angular/language-service": "~12.0.3",
-    "@types/jasmine": "~3.6.0",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.19.3",
-    "@typescript-eslint/eslint-plugin": "4.23.0",
-    "@typescript-eslint/parser": "4.23.0",
-    "eslint": "^7.26.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~6.3.3",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "typescript": "~4.2.4"
+    "@types/react-dom": "^19.2.3",
+    "react-dom": "^19.2.5",
+    "tsx": "^4.21.0"
   }
 }
